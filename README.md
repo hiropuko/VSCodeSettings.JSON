@@ -1,7 +1,7 @@
 # VSCodeSettings.JSON
 https://youtu.be/RuIP-EBSCxY
 
-<h4> # SHIFT + ALT + N = запустить код
+<h3> # SHIFT + ALT + N = запустить код </h3>
 # CTRL + X = удалить строку
 # CTRL + V = скопировать отмеченный код
 # CTRL + C = вставить скопированный код
@@ -17,4 +17,4 @@ https://youtu.be/RuIP-EBSCxY
 # SHIFT + DEL = удалить строку
 
 # CTRL + , = настройки
-# CTRL + SHIF + P = командная строка </h4>
+# CTRL + SHIF + P = командная строка 

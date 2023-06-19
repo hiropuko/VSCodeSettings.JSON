@@ -20,7 +20,7 @@
         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "php": "php",
-        "python": "python -u",
+        "python": "set PYTHONIOENCODING=utf8 && py -u",
         "perl": "perl",
         "perl6": "perl6",
         "ruby": "ruby",
@@ -65,5 +65,11 @@
         "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "sml": "cd $dir && sml $fileName"
-    }
+    },
+    "scm.inputFontSize": 14,
+    "terminal.integrated.fontSize": 18,
+    "editor.scrollbar.horizontalScrollbarSize": 14,
+    "editor.insertSpaces": false,
+    "files.trimFinalNewlines": true,
+    "editor.wordWrap": "on"
 }

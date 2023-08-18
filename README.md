@@ -8,7 +8,8 @@ https://code.visualstudio.com/download
 - Material Icon Theme
 - autopep8
 
-Настройки VSCode Ctrl+,
+Настройки VSCode
+- Ctrl+,
 копируем настройки JSON
 
 https://youtu.be/RuIP-EBSCxY

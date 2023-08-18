@@ -10,6 +10,6 @@ https://code.visualstudio.com/download
 
 Настройки VSCode
 - Ctrl+,
-копируем настройки JSON
+- импорт настроек JSON
 
 https://youtu.be/RuIP-EBSCxY

@@ -3,10 +3,10 @@
 https://code.visualstudio.com/download
 
 Установка пакетов для VSCode:
-Code Runner
-Bluloco Dark Theme
-Material Icon Theme
-autopep8
+- Code Runner
+- Bluloco Dark Theme
+- Material Icon Theme
+- autopep8
 
 Настройки VSCode Ctrl+,
 копируем настройки JSON

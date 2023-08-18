@@ -1,48 +1,57 @@
 {
     "[python]": {
-        "editor.formatOnType": true,
-        "editor.defaultFormatter": "ms-python.autopep8"
+        "editor.formatOnType": true, // Форматирование кода при вводе для языка Python
+        "editor.defaultFormatter": "ms-python.autopep8" // Использование автоформаттера autopep8 для Python
     },
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Bluloco Dark",
-    "editor.formatOnSave": true,
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.showExecutionMessage": false,
-    "code-runner.saveFileBeforeRun": true,
-    "editor.accessibilityPageSize": 12,
-    "editor.fontSize": 18,
-    "editor.mouseWheelZoom": true,
+    "workbench.iconTheme": "material-icon-theme", // Выбор темы иконок Material
+    "workbench.colorTheme": "Bluloco Dark", // Выбор темы оформления цветовой схемы Bluloco Dark
+    "editor.formatOnSave": true, // Форматирование кода при сохранении файла
+    "workbench.layoutControl.enabled": false, // Отключение разметки для области видимости
+    "code-runner.clearPreviousOutput": true, // Очистка предыдущего вывода перед выполнением кода в Code Runner
+    "code-runner.showExecutionMessage": false, // Отключение отображения сообщений о выполнении в Code Runner
+    "code-runner.saveFileBeforeRun": true, // Автоматическое сохранение файла перед выполнением кода в Code Runner
+    "editor.accessibilityPageSize": 12, // Размер страницы доступности редактора
+    "editor.minimap.enabled": false, // Отключение мини-карты
+    "editor.lineHeight": 24, // Высота строки
+    "editor.hover.delay": 1500, // Задержка при отображении всплывающей подсказки
+    "editor.glyphMargin": false, // Отключение глифов в гуттере (маргине)
+    "editor.fontSize": 22, // Размер шрифта редактора
+    "editor.letterSpacing": 0.3, // Межбуквенное расстояние
+    "editor.mouseWheelZoom": true, // Включение масштабирования колесиком мыши
+    "workbench.colorCustomizations": {
+        "statusBar.border": "#206486", // Изменение цвета границы строки состояния
+        "panel.border": "#59ace2", // Изменение цвета границы панели
+    },
+    "editor.tokenColorCustomizations": {
+        "variables": "#DCDEDF", // Изменение цвета переменных
+        "textMateRules": [
+            {
+                "scope": [
+                    // Области, для которых задается цвет
+                    "source",
+                    "variable",
+                    "constant",
+                    "variable.other.constant",
+                    "punctuation.definition.constant",
+                    "constant.other.symbol",
+                    "constant.language.symbol",
+                    "support.constant",
+                    "support.variable.magic.python",
+                    "variable.other.enummember"
+                ],
+                "settings": {
+                    "foreground": "#DCDEDF" // Задание цвета текста
+                }
+            }
+        ]
+    },
     "code-runner.executorMap": {
-        "javascript": "node",
-        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
-        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "zig": "zig run",
-        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "php": "php",
-        "python": "set PYTHONIOENCODING=utf8 && py -u",
-        "perl": "perl",
-        "perl6": "perl6",
-        "ruby": "ruby",
-        "go": "go run",
-        "lua": "lua",
-        "groovy": "groovy",
-        "powershell": "powershell -ExecutionPolicy ByPass -File",
-        "bat": "cmd /c",
-        "shellscript": "bash",
-        "fsharp": "fsi",
-        "csharp": "scriptcs",
-        "vbscript": "cscript //Nologo",
-        "typescript": "ts-node",
-        "coffeescript": "coffee",
-        "scala": "scala",
- 
-        "sml": "cd $dir && sml $fileName"
+        "python": "set PYTHONIOENCODING=utf8 && py -u", // Команда выполнения для Python с поддержкой русского языка
     },
-    "scm.inputFontSize": 14,
-    "terminal.integrated.fontSize": 18,
-    "editor.scrollbar.horizontalScrollbarSize": 14,
-    "editor.insertSpaces": false,
-    "files.trimFinalNewlines": true,
-    "editor.wordWrap": "on"
+    "scm.inputFontSize": 14, // Размер шрифта для ввода в системе контроля версий
+    "terminal.integrated.fontSize": 18, // Размер шрифта в интегрированном терминале
+    "editor.scrollbar.horizontalScrollbarSize": 14, // Размер горизонтальной полосы прокрутки
+    "editor.insertSpaces": false, // Вставка пробелов вместо табуляции
+    "files.trimFinalNewlines": true, // Удаление пустых строк в конце файла
+    "editor.wordWrap": "on" // Включение переноса строк
 }

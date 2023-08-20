@@ -16,7 +16,7 @@
   - Ctrl+,
   - импорт настроек JSON
 
-https://github.com/repackScript/VSCodeSettings.JSON/blob/main/VSCodeSettings.JSON
+  https://github.com/repackScript/VSCodeSettings.JSON/blob/main/VSCodeSettings.JSON
 
 
 4. Настройка виртуальной среды: Рекомендуется создать виртуальное окружение для каждого проекта, чтобы изолировать зависимости. В терминале VS Code используйте команду python -m venv имя_окружения для создания виртуальной среды.
@@ -24,6 +24,7 @@ https://github.com/repackScript/VSCodeSettings.JSON/blob/main/VSCodeSettings.JSO
   - pip install pipenv (установка виртуалной среды на хост машину, толь один раз)
 
 5. Создание для проекта в папке собственую виртуальню среду.
+
    -  python -m venv имя_окружения: python -m venv .venv
    -  поддеждение работы с вируальной средой
    -  установка пакетов, только для виртуальной среды: pipenv install numpy

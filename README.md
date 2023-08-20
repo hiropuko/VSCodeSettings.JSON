@@ -1,5 +1,7 @@
 # VSCodeSettings.JSON
 
+https://www.python.org/
+
 https://code.visualstudio.com/download
 
 Установка пакетов для VSCode:

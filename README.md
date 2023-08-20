@@ -26,10 +26,15 @@
 5. Создание для проекта в папке собственую виртуальню среду.
 
    -  python -m venv имя_окружения: python -m venv .venv
-   -  поддеждение работы с вируальной средой
+   -  We noticed a new environment has been created. Do you want to select it for the workspace folder? YES
    -  установка пакетов, только для виртуальной среды: pipenv install numpy
-   -  запуск виртуальной среды (pipevn shell)
    -  удалить пакет: pipenv uninstall numpy
+   -  запуск виртуальной среды и воход в терминал через VSCode (pipevn shell)
+         -  внутри среди VSCode терминал:
+             -  pip list
+             -  pip install пакет
+             -  pip uninstall пакет     
+   
 
 
   

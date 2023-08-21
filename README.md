@@ -33,7 +33,7 @@
          -  внутри среди VSCode терминал:
              -  pip list
              -  pip install пакет
-             -  pip uninstall пакет     
+             -  pip uninstall пакет (https://pypi.org/)    
    
 
 

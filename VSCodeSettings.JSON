@@ -47,6 +47,7 @@
     },
     "code-runner.executorMap": {
         "python": "set PYTHONIOENCODING=utf8 && py -u", // Команда выполнения для Python с поддержкой русского языка
+        "powershell": "powershell -ExecutionPolicy ByPass -File", // Для запуска Windows PowerShell
     },
     "scm.inputFontSize": 14, // Размер шрифта для ввода в системе контроля версий
     "terminal.integrated.fontSize": 18, // Размер шрифта в интегрированном терминале
